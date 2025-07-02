@@ -1,0 +1,8 @@
+{
+  "android": {
+    "package": "com.chanwoongmoon.nextexpoexample"
+  },
+  "ios": {
+    "bundleIdentifier": "com.chanwoongmoon.nextexpoexample"
+  }
+}

@@ -6,10 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "web": "pnpm --filter @next-expo-example/web",
-    "app": "pnpm --filter @next-expo-example/app"
+    "app": "pnpm --filter @next-expo-example/app",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.12.4"
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "expo": "~53.0.15",
+    "react": "19.0.0",
+    "react-native": "0.79.4"
+  }
 }
