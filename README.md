@@ -10,6 +10,13 @@ using DOM component you can make app with webview(dom component) like native app
 
 nodeLinker: isolated -> needs to be set
 
+in nextjs package.json have to change like below, (same as what is in expo)
+
+```"dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+}```,
+
 # if app cannot build set
 
 - nodeLinker: isolated

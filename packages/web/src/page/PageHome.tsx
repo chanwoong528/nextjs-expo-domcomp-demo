@@ -3,6 +3,8 @@ import DefaultLayout from "../widget/layout/DefaultLayout";
 import ComplexButton from "../widget/ComplexButton";
 
 export default function PageHome() {
+  console.log("homehome!!! from nextjs");
+
   return (
     <DefaultLayout>
       <div className='flex flex-col gap-2 border-4 border-red-800 p-2'>

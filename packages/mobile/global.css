@@ -1,3 +1,4 @@
 @import "tailwindcss";
 
 @source "./node_modules/@next-expo-example";
+/* important to import tailwindcss from monorepo source */

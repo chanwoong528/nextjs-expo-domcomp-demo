@@ -10,11 +10,14 @@ const ComplexButton = () => {
       <div className='flex flex-row gap-2'>
         <button
           className='bg-blue-500 text-white p-2 rounded-md'
-          onClick={() => setCount(count + 1)}>
+          onClick={() => {
+            console.log("increment");
+            setCount(count + 1);
+          }}>
           increment
         </button>
         <button
-          className='bg-orange-500 text-white p-2 rounded-md'
+          className='bg-orange-500 p-2 rounded-md text-[#666]'
           onClick={() => setCount(count - 1)}>
           decrement
         </button>
